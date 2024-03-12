@@ -3,3 +3,5 @@
 Chapter 2.  Objects in Python.
 
 Core data model of samples and training data.
+
+See [docs](./docs/examples_with_pic.md)

@@ -2,11 +2,13 @@
 # Case Study for Chapter 2, Objects in Python
 
 ## Logical View
-
+![fig_2.png](./fig_2.png)
+![fig_2.png](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/robert0714/Packt-Python-Object-Oriented-Programming---4th-edition-2021/main/ch_02/docs/fig_2.uml)
 ## Samples and Their States
 
 ## Sample State Transitions
-
+![fig_3.png](./fig_3.png)
+![fig_3.png](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/robert0714/Packt-Python-Object-Oriented-Programming---4th-edition-2021/main/ch_02/docs/fig_3.uml)
 ```python
 >>> from model import Sample
 >>> s2 = Sample(
