@@ -60,6 +60,18 @@ from **conda**, and then add PIP packages.
 
 Your versions may be slightly newer than the ones used by the author.
 
+### Introducing tox-conda
+By default, [tox](https://tox.wiki/) creates isolated environments using virtualenv and installs dependencies from pip.
+
+In contrast, when using the [tox-conda plugin tox](https://github.com/tox-dev/tox-conda) will use conda to create environments, and will install specified dependencies from conda. This is useful for developers who rely on conda for environment management and package distribution but want to take advantage of the features provided by tox for test automation.
+
+tox-conda has not been tested with conda version below 4.5.
+#### tox-conda Installation
+The tox-conda package is available on pypi. To install, simply use the following command:
+```bash
+$ pip install tox-conda
+```
+
 ## Multiple Python Version Setup
 
 The full test suite requires multiple versions of Python and the tox utility.
